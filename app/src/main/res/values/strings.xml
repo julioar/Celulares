@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Celulares</string>
+    <string name="crear_celular">Crear Celular</string>
+    <string name="listado">Listado</string>
+    <string name="Guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="samsung" translatable="false">Samsung</string>
+    <string name="huawei" translatable="false">Huawei</string>
+    <string name="apple" translatable="false">Apple</string>
+    <string name="nokia" translatable="false">Nokia</string>
+    <string name="rojo">Rojo</string>
+    <string name="negro">Negro</string>
+    <string name="blanco">Blanco</string>
+    <string name="millon" translatable="false">$1.000.000</string>
+    <string name="dosMillones" translatable="false">$2.000.000</string>
+    <string name="tresMillones" translatable="false">$3.000.000</string>
+    <string name="unagb" translatable="false">8 GB</string>
+    <string name="dieciseisgb" translatable="false">16 GB</string>
+    <string name="treintagb" translatable="false">32 GB</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="marca">Marca</string>
+    <string name="precio">Precio</string>
+    <string name="color">Color</string>
+    <string name="capacidad">Capacidad</string>
+    <string name="numero" translatable="false">No.</string>
+    <string name="mensaje_guardado">Celular Guardada exitosamente!</string>
+    <string-array name="marcas">
+        <item>@string/samsung</item>
+        <item>@string/huawei</item>
+        <item>@string/apple</item>
+        <item>@string/nokia</item>
+    </string-array>
+    <string-array name="precio">
+        <item>@string/millon</item>
+        <item>@string/dosMillones</item>
+        <item>@string/tresMillones</item>
+    </string-array>
+    <string-array name="colores">
+        <item>@string/rojo</item>
+        <item>@string/negro</item>
+        <item>@string/blanco</item>
+    </string-array>
+    <string-array name="capacidad">
+        <item>@string/unagb</item>
+        <item>@string/dieciseisgb</item>
+        <item>@string/treintagb</item>
+    </string-array>
+<string-array name="opciones">
+    <item>@string/crear_celular</item>
+    <item>@string/listado</item>
+</string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Celulares</string>
+    <string name="crear_celular">Create Cell Phone</string>
+    <string name="Guardar">Save</string>
+    <string name="limpiar">Clear</string>
+    <string name="cantidad">number</string>
+    <string name="listado">List</string>
+    <string name="mensaje_guardado">Save Person</string>
+    <string name="rojo">Red</string>
+    <string name="color">Colors</string>
+</resources>
