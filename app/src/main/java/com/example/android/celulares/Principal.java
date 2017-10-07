@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -86,7 +87,7 @@ public class Principal extends AppCompatActivity {
         String msg="";
         if (cel.size()!=0){
             for (int i=0;i<cel.size();i++){
-                if (cel.get(i).getPrecio()==0){
+                if (cel.get(i).getPrecio()==0 && cel.get(i).getMarca()==1){
                     mar = marca[cel.get(i).getMarca()];
                     pre = precio[cel.get(i).getPrecio()];
                     cap = capacidad[cel.get(i).getCapacidad()];
@@ -94,9 +95,11 @@ public class Principal extends AppCompatActivity {
                     sis = sistema[cel.get(i).getSistema()];
                 }
             }
-            msg="El celular mas barato es: "+mar+ ", con "+cap+", color "+col+", sistema "+sis+", precio "+pre;
+            msg= res.getString(R.string.caro)+" "+mar+ ", "+res.getString(R.string.capacidad)+" "+cap+" ,"+ res.getString(R.string.color)+" "+
+                    col+", "+ res.getString(R.string.sistema)+" "+sis+", "+res.getString(R.string.precio)+" "+pre;
         }else {
-            msg="No hay registros";
+            msg=res.getString(R.string.sinRegistro);
+
         }
         return msg;
     }

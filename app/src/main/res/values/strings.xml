@@ -11,12 +11,12 @@
     <string name="rojo">Rojo</string>
     <string name="negro">Negro</string>
     <string name="blanco">Blanco</string>
-    <string name="seiscientos">$600.000</string>
+    <string name="seiscientos" translatable="false">$600.000</string>
     <string name="millon" translatable="false">$1.000.000</string>
     <string name="dosMillones" translatable="false">$2.000.000</string>
     <string name="tresMillones" translatable="false">$3.000.000</string>
-    <string name="dosgb">2 GB</string>
-    <string name="cuatrogb">4 GB</string>
+    <string name="dosgb" translatable="false">2 GB</string>
+    <string name="cuatrogb" translatable="false">4 GB</string>
     <string name="unagb" translatable="false">8 GB</string>
     <string name="dieciseisgb" translatable="false">16 GB</string>
     <string name="treintagb" translatable="false">32 GB</string>
@@ -27,13 +27,15 @@
     <string name="capacidad">Capacidad</string>
     <string name="numero" translatable="false">No.</string>
     <string name="mensaje_guardado">Celular Guardada exitosamente!</string>
-    <string name="reporte_2">Samsung 2 a 4 GB</string>
+    <string name="reporte_2" translatable="false">Samsung 2 a 4 GB</string>
     <string name="reporte_4">Marca Apple color Negro</string>
     <string name="reporte_1">Precio y capacidad Samsung negro</string>
-    <string name="huaweiBarato">el huawei mas barato</string>
-    <string name="sistema">SO</string>
-    <string name="android">Android</string>
-    <string name="ios">IOS</string>
+    <string name="huaweiBarato">Huawei mas barato</string>
+    <string name="sistema" translatable="false">SO</string>
+    <string name="android" translatable="false">Android</string>
+    <string name="ios" translatable="false">IOS</string>
+    <string name="sinRegistro">No hay registros</string>
+    <string name="caro">El celular mas caro es:</string>
     <string-array name="sistema">
         <item>@string/android</item>
         <item>@string/ios</item>

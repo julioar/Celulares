@@ -70,7 +70,7 @@ public class CrearCelular extends AppCompatActivity {
         sistema = spinner_Sistema.getSelectedItemPosition();
         capacidad = spinner_capacidad.getSelectedItemPosition();
 
-        Celular c = new Celular(marca, precio, color, sistema, capacidad);
+        Celular c = new Celular(marca, precio, color, capacidad, sistema);
 
         if ((sistema==0 && marca==2) || (marca!=2 && sistema==1) ){
             new AlertDialog.Builder(CrearCelular.this).setMessage("Este marca no maneja ese sistema").show();

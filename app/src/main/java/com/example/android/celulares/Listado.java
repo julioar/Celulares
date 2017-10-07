@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -56,6 +57,7 @@ public class Listado extends AppCompatActivity {
             fila.addView(c5);
             fila.addView(c6);
             tabla.addView(fila);
+
         }
 
     }
