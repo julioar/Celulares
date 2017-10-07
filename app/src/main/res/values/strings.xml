@@ -11,9 +11,12 @@
     <string name="rojo">Rojo</string>
     <string name="negro">Negro</string>
     <string name="blanco">Blanco</string>
+    <string name="seiscientos">$600.000</string>
     <string name="millon" translatable="false">$1.000.000</string>
     <string name="dosMillones" translatable="false">$2.000.000</string>
     <string name="tresMillones" translatable="false">$3.000.000</string>
+    <string name="dosgb">2 GB</string>
+    <string name="cuatrogb">4 GB</string>
     <string name="unagb" translatable="false">8 GB</string>
     <string name="dieciseisgb" translatable="false">16 GB</string>
     <string name="treintagb" translatable="false">32 GB</string>
@@ -24,6 +27,17 @@
     <string name="capacidad">Capacidad</string>
     <string name="numero" translatable="false">No.</string>
     <string name="mensaje_guardado">Celular Guardada exitosamente!</string>
+    <string name="reporte_2">Samsung 2 a 4 GB</string>
+    <string name="reporte_4">Marca Apple color Negro</string>
+    <string name="reporte_1">Precio y capacidad Samsung negro</string>
+    <string name="huaweiBarato">el huawei mas barato</string>
+    <string name="sistema">SO</string>
+    <string name="android">Android</string>
+    <string name="ios">IOS</string>
+    <string-array name="sistema">
+        <item>@string/android</item>
+        <item>@string/ios</item>
+    </string-array>
     <string-array name="marcas">
         <item>@string/samsung</item>
         <item>@string/huawei</item>
@@ -31,6 +45,7 @@
         <item>@string/nokia</item>
     </string-array>
     <string-array name="precio">
+        <item>@string/seiscientos</item>
         <item>@string/millon</item>
         <item>@string/dosMillones</item>
         <item>@string/tresMillones</item>
@@ -41,12 +56,18 @@
         <item>@string/blanco</item>
     </string-array>
     <string-array name="capacidad">
+        <item>@string/dosgb</item>
+        <item>@string/cuatrogb</item>
         <item>@string/unagb</item>
         <item>@string/dieciseisgb</item>
         <item>@string/treintagb</item>
     </string-array>
-<string-array name="opciones">
-    <item>@string/crear_celular</item>
-    <item>@string/listado</item>
-</string-array>
+    <string-array name="opciones">
+        <item>@string/crear_celular</item>
+        <item>@string/listado</item>
+        <item>@string/reporte_2</item>
+        <item>@string/reporte_4</item>
+        <item>@string/reporte_1</item>
+        <item>@string/huaweiBarato</item>
+    </string-array>
 </resources>

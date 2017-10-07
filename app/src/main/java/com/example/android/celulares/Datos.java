@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Datos {
 
-    private static ArrayList<Celular> celulares = new ArrayList();
+    private static ArrayList<Celular> celulares = new ArrayList<>();
 
     public static void guardarCelulares(Celular c){
         celulares.add(c);

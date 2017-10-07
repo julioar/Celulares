@@ -9,10 +9,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ReporteCuatro extends AppCompatActivity {
-
+public class ReporteDos extends AppCompatActivity {
     private TableLayout tabla_reporte;
-    private ArrayList<Celular> celular;
+    private ArrayList<Celular> celular, samsung;
     private String marca[];
     private String capacidad[];
     private String precio[];
@@ -23,9 +22,9 @@ public class ReporteCuatro extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reporte_cuatro);
+        setContentView(R.layout.activity_reporte_dos);
 
-        tabla_reporte = (TableLayout)findViewById(R.id.tblReporteCuatro);
+        tabla_reporte = (TableLayout)findViewById(R.id.tblReporteDos);
         celular = Datos.getCelulares();
         resources = this.getResources();
         marca = resources.getStringArray(R.array.marcas);
@@ -34,8 +33,9 @@ public class ReporteCuatro extends AppCompatActivity {
         color = resources.getStringArray(R.array.colores);
         sistema = resources.getStringArray(R.array.sistema);
 
+
         for (int i = 0; i< celular.size(); i++){
-            if(celular.get(i).getMarca()==2 && celular.get(i).getColor()==1){
+            if(celular.get(i).getMarca()==0 && (celular.get(i).getCapacidad()==0 || celular.get(i).getCapacidad()==1)){
                 TableRow fila = new TableRow(this);
                 TextView c1 = new TextView(this);
                 TextView c2 = new TextView(this);
@@ -59,5 +59,7 @@ public class ReporteCuatro extends AppCompatActivity {
                 tabla_reporte.addView(fila);
             }
         }
+
     }
+
 }

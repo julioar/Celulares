@@ -16,6 +16,7 @@ public class Listado extends AppCompatActivity {
     private String marca[];
     private String precio[];
     private String color[];
+    private String sistema[];
     private String capacidad[];
     private Resources resources;
 
@@ -30,6 +31,7 @@ public class Listado extends AppCompatActivity {
         marca = resources.getStringArray(R.array.marcas);
         precio = resources.getStringArray(R.array.precio);
         color = resources.getStringArray(R.array.colores);
+        sistema = resources.getStringArray(R.array.sistema);
         capacidad = resources.getStringArray(R.array.capacidad);
 
         for (int i = 0; i< celular.size(); i++){
@@ -39,17 +41,20 @@ public class Listado extends AppCompatActivity {
             TextView c3 = new TextView(this);
             TextView c4 = new TextView(this);
             TextView c5 = new TextView(this);
+            TextView c6= new TextView(this);
 
             c1.setText(""+(i+1));
             c2.setText(marca[celular.get(i).getMarca()]);
             c3.setText(precio[celular.get(i).getPrecio()]);
             c4.setText(color [celular.get(i).getColor()]);
-            c5.setText(capacidad[celular.get(i).getCapacidad()]);
+            c5.setText(sistema[celular.get(i).getSistema()]);
+            c6.setText(capacidad[celular.get(i).getCapacidad()]);
             fila.addView(c1);
             fila.addView(c2);
             fila.addView(c3);
             fila.addView(c4);
             fila.addView(c5);
+            fila.addView(c6);
             tabla.addView(fila);
         }
 

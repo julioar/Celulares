@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tblReporteUno"
+    android:id="@+id/tblReporteDos"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:stretchColumns="*"
-    tools:context="com.example.android.celulares.ReporteUno"
+    tools:context="com.example.android.celulares.ReporteDos"
     tools:layout_editor_absoluteX="8dp"
     tools:layout_editor_absoluteY="8dp">
 
@@ -17,23 +16,40 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/numero" />
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marca" />
+
+        <TextView
+            android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/precio" />
 
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sistema" />
+
+        <TextView
+            android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/capacidad" />
-
     </TableRow>
 
 </TableLayout>

@@ -10,12 +10,18 @@ public class Celular {
     private int precio;
     private int color;
     private int capacidad;
+    private int sistema;
 
-    public Celular(int marca, int precio, int color, int capacidad) {
+    public Celular(int marca, int precio, int color, int capacidad, int sistema) {
         this.marca = marca;
         this.precio = precio;
         this.color = color;
         this.capacidad = capacidad;
+        this.sistema = sistema;
+    }
+
+    public int getSistema() {
+        return sistema;
     }
 
     public int getMarca() {
@@ -48,6 +54,10 @@ public class Celular {
 
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
+    }
+
+    public void setSistema(int sistema) {
+        this.sistema = sistema;
     }
 
     public void guardar(){
